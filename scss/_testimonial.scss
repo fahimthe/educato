@@ -1,0 +1,78 @@
+#testimonial{
+    background-image: url(../images/test-bg-aliments.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff7f5;
+
+    .testimonial_main{
+        .testimonial_text{
+            padding: 120px 0;
+            h3{
+                font-size: 22px;
+                font-weight: 500;
+                color: $red;
+            }
+
+            h4{
+                font-size: 55px;
+                font-weight: 700;
+                color: black;
+                padding-top: 10px;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                color: #333333;
+                line-height: 24px;
+                padding: 10px 0;
+            }
+        }
+
+        .testimonial_right{
+                         padding: 120px 0;
+         .testimonial_slider{
+                .client_box{
+                    width: 90% !important;
+                    padding: 35px;
+                    margin: 15px;
+                    background-color: rgb(255, 255, 255);
+                    box-shadow: 1px 1.732px 16px 0px rgba(0, 0, 0, 0.4);
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+             .client_info{
+                          display: flex;
+                          align-items: center;
+                          .client_bio{
+                                     padding-left: 10px;
+                                h4{
+                                    font-size: 22px;
+                                    font-weight: 500;
+                                    color: black;
+                                    
+                                }
+                                h5{
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    color: $red;
+                                   
+                                }
+                          }
+                      }
+    
+                      .client_p{
+                          p{
+                                    font-size: 15px;
+                                    font-weight: 400;
+                                    color: #333333;  
+                                    line-height: 24px;
+                                    padding-top: 20px;
+                          }
+                      }
+                }
+            }
+        }
+    }
+}

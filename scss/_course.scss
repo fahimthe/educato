@@ -1,0 +1,103 @@
+#course{
+
+    .course_main{
+        .couse_header{
+            h2{
+                font-size: 20px;
+                font-weight: 500;
+                color: $red;
+            }
+            h3{
+                font-size: 38px;
+                font-weight: 700;
+                color: black;
+            }
+        }
+    }
+
+    .course_slider{
+        margin: 50px 0;
+        overflow: hidden;
+        .slider_inner{
+            position: relative;
+            margin: 0 10px;
+            .inner_items{
+                position: relative;
+                &:hover .inner_item_overly{
+                 opacity: 1;
+                 transition: all linear .5s;
+                 -webkit-transition: all linear .5s;
+                 -moz-transition: all linear .5s;
+                 -ms-transition: all linear .5s;
+                 -o-transition: all linear .5s;
+}
+                img{
+                    width: 100%;
+                    border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -ms-border-radius: 10px;
+                    -o-border-radius: 10px;
+              }
+
+              .inner_item_overly{
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  height: 100%;
+                  width: 100%;
+                  background-color: rgba(254, 130, 102, 0.322);
+                  border-radius: 10px;
+                  -webkit-border-radius: 10px;
+                  -moz-border-radius: 10px;
+                  -ms-border-radius: 10px;
+                  -o-border-radius: 10px;
+                  opacity: 0;
+
+                  .overly_item{
+                      position: absolute;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%,-50%);
+                      -webkit-transform: translate(-50%,-50%);
+                      -moz-transform: translate(-50%,-50%);
+                      -ms-transform: translate(-50%,-50%);
+                      -o-transform: translate(-50%,-50%);
+                        a{
+                            font-size: 26px;
+                            font-weight: 500;
+                            color: $white;
+                            &:hover{
+                                margin-left: -15px;
+                                transition: all linear .3s;
+                                -webkit-transition: all linear .3s;
+                                -moz-transition: all linear .3s;
+                                -ms-transition: all linear .3s;
+                                -o-transition: all linear .3s;
+}
+                        }
+                     
+                  }
+}
+
+          .img_text{
+              padding: 10px 10px;
+         position: absolute;
+         bottom: 0;
+         left: 0;
+             h3{
+                font-size: 22px;
+                font-weight: 500;
+                color: $white;
+             }
+             h4{
+                font-size: 28px;
+                font-weight: 700;
+                color: $white;
+             }
+          }
+            }
+        }
+    }
+
+}

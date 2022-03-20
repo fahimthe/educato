@@ -1,0 +1,105 @@
+#blog{
+    margin: 100px 0;
+    .blog_main{
+          position: relative;
+        .banner_round_14{
+            position: absolute;
+            bottom:10%;
+            left: -10%;
+            .round_small{
+               @include smallRound;
+         
+         }
+           }
+
+           .banner_round_16{
+            position: absolute;
+            top:15%;
+            right: -10%;
+            .round_small{
+               @include smallRound;
+         }
+           }
+           .banner_round_15{
+            position: absolute;
+            top:40%;
+            right: -20%;
+            .round_big{
+               @include bigRound;
+         }
+           }
+        .blog_header{
+            h2{
+                font-size: 20px;
+                font-weight: 500;
+                color: $red;
+            }
+            h3{
+                font-size: 42px;
+                font-weight: 700;
+                color: black;
+            }
+        }
+        .blog_item{
+            margin-top: 100px;
+            .blog_img{
+                img{
+                    width: 100%;
+                }
+            }
+            .blog_descrip{
+                height: 50px;
+                width: 200px;
+                background-color: $red;
+                border-radius: 30px;
+                -webkit-border-radius: 30px;
+                -moz-border-radius: 30px;
+                -ms-border-radius: 30px;
+                -o-border-radius: 30px;
+                text-align: center;
+                position: relative;
+                top:-25px;
+                left: 50%;
+                transform: translateX(-50%);
+                -webkit-transform: translateX(-50%);
+                -moz-transform: translateX(-50%);
+                -ms-transform: translateX(-50%);
+                -o-transform: translateX(-50%);
+                 a{
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: white;
+                    line-height: 50px;
+                }
+}
+            .blog_text{
+                text-align: center;
+                h3{
+                    font-size: 22px;
+                    font-weight: 500;
+                    color: black;
+                    line-height: 24px;
+                    padding-top: 20px;
+                }
+                p{
+
+                    font-size: 17px;
+                    font-weight: 500;
+                    color: $red;
+                    padding-top: 10px;
+
+                    &:hover{
+                        margin-right: 15px;
+                        transition:all linear .4s;
+                        -webkit-transition:all linear .4s;
+                        -moz-transition:all linear .4s;
+                        -ms-transition:all linear .4s;
+                        -o-transition:all linear .4s;
+                        border-bottom: 1px solid $red;
+                        display: inline-block;
+}
+                }
+            }
+        }
+    }
+}

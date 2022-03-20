@@ -1,0 +1,98 @@
+#event{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    .event_main{
+         position: relative;
+        .banner_round_11{
+            position: absolute;
+            bottom:10%;
+            left: -10%;
+            .round_small{
+               @include smallRound;
+         
+         }
+           }
+
+           .banner_round_12{
+            position: absolute;
+            top:15%;
+            right: -10%;
+            .round_small{
+               @include smallRound;
+         }
+           }
+           .banner_round_13{
+            position: absolute;
+            top:40%;
+            right: -20%;
+            .round_big{
+               @include bigRound;
+         }
+           }
+
+        .event_header{
+            margin-bottom: 50px;
+            h2{
+                font-size: 20px;
+                font-weight: 500;
+                color: $red;
+            }
+            h3{
+                font-size: 38px;
+                font-weight: 700;
+                color: black;
+            }
+        }
+
+        .event_item{
+            .item_left{
+                padding: 25px;
+               .box{
+                border: 1px dashed $red;
+                text-align: center;
+                padding: 20px 10px;
+                border-radius: 10px;
+                -webkit-border-radius: 10px;
+                -moz-border-radius: 10px;
+                -ms-border-radius: 10px;
+                -o-border-radius: 10px;
+                background-color: rgb(255, 255, 255);
+                box-shadow: 1px 1.732px 40px 0px rgba(0, 0, 0, 0.15);
+                h4{
+                    font-size: 60px;
+                    font-weight: 800;
+                    color: $red; 
+                }
+                h5{
+                    font-size: 19px;
+                    font-weight: 700;
+                    color: black; 
+                }
+               }
+
+            }
+            .item_right{
+                padding: 20px 0 25px 0;
+                h3{
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: black;
+                    padding-top: 10px;
+                }
+                h4{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: $red;
+                    padding-top: 10px;
+                }
+                p{
+                    padding-top: 10px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #333333;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}

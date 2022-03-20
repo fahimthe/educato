@@ -1,0 +1,108 @@
+#service{
+         margin:100px 0;
+    .service_main{
+           position: relative;
+        .banner_round_9{
+            position: absolute;
+            bottom:10%;
+            left: -10%;
+            .round_small{
+               @include smallRound;
+         
+         }
+           }
+
+           .banner_round_10{
+            position: absolute;
+            top:15%;
+            right: -10%;
+            .round_small{
+               @include smallRound;
+         }
+           }
+        
+        .service_text{
+            h3{
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: $red;
+            }
+            h4{
+                font-size: 60px;
+                font-weight: 800;
+                color: black;
+                padding-top: 10px;
+            }
+            p{
+                font-size: 15px;
+                font-weight: 400;
+                color: #333333;
+                line-height: 24px;
+            }
+
+            .service_button{
+                button{
+                   margin: 20px 0;
+                   height: 60px;
+                   width: 185px;
+                   background-color: #ff8367;
+                   border-radius: 10px;
+                   -webkit-border-radius: 10px;
+                   -moz-border-radius: 10px;
+                   -ms-border-radius: 10px;
+                   -o-border-radius: 10px;
+                   &:hover{
+                      background-color: #eb7358;
+                   }
+                   a{
+                      color: #ffff;
+                      font-size: 16px;
+                      font-weight: 500;
+                      text-transform: uppercase;
+                   }
+                }
+          }
+        }
+
+     .service_box{
+         .box_inner{
+             padding: 30px 20px;
+             border-radius: 10px;
+             background-color: rgb(255, 255, 255);
+             box-shadow: 1px 1.732px 40px 0px rgba(0, 0, 0, 0.15);
+
+             &:hover{
+               background-color: rgb(255, 255, 255);
+                box-shadow: 1px 1.732px 40px 0px rgba(0, 0, 0, 0.25);
+             }
+             .box_img{
+                border: 1px solid #fe8366;
+                display: inline-block;
+                padding: 15px;
+                width: 60px;
+                height: 60px;
+                text-align: center;
+                border-radius: 50%;
+                 img{
+                      width: 100%;
+                      max-width: 100%;
+                    }
+             }
+
+             h3{
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: black;
+                    padding: 15px 0;
+             }
+             p{
+                font-size: 16px;
+                font-weight: 400;
+                color: #333333;
+                line-height: 24px;
+             }
+         }
+     }
+
+    }
+}
